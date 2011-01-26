@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Sizl.org</title>
+<link href="sizl.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" language="JavaScript"><!--
+function HideContent(d) {
+if(d.length < 1) { return; }
+document.getElementById(d).style.display = "none";
+}
+function ShowContent(d) {
+if(d.length < 1) { return; }
+document.getElementById(d).style.display = "block";
+}
+function ReverseContentDisplay(d) {
+if(d.length < 1) { return; }
+if(document.getElementById(d).style.display == "none") { 
+	document.getElementById("InfoLayer").style.display = "none";
+	document.getElementById("ItemsLayer").style.display = "none";
+	document.getElementById("FavorsLayer").style.display = "none";
+	document.getElementById("ListingsLayer").style.display = "none";
+	document.getElementById("ProfileLayer").style.display = "none";
+	document.getElementById(d).style.display = "block"; 
+	}
+else if(document.getElementById(d).style.display == "") { 
+	document.getElementById("InfoLayer").style.display = "none";
+	document.getElementById("ItemsLayer").style.display = "none";
+	document.getElementById("FavorsLayer").style.display = "none";
+	document.getElementById("ListingsLayer").style.display = "none";
+	document.getElementById("ProfileLayer").style.display = "none";
+	document.getElementById(d).style.display = "block"; 
+	}
+else {
+	document.getElementById("InfoLayer").style.display = "none";
+	document.getElementById("ItemsLayer").style.display = "none";
+	document.getElementById("FavorsLayer").style.display = "none";
+	document.getElementById("ListingsLayer").style.display = "none";
+	document.getElementById("ProfileLayer").style.display = "none";
+	document.getElementById(d).style.display = "none"; 
+	}
+}
+
+//--></script>
+</head>
+
+
+<body>
+
+<div id="background"></div>
+<a href="../index.html"><div id="OtaSizzle"></div></a>
+<a class="back" href="../index.html"><div id="back">&lt;&lt; Back to Main</div></a>
+<a onmouseclick="ReverseContentDisplay('InfoLayer'); return true;"
+   href="javascript:ReverseContentDisplay('InfoLayer')"><div id="kassi"></div></a>
+<a onmouseclick="ReverseContentDisplay('ItemsLayer'); return true;"
+   href="javascript:ReverseContentDisplay('ItemsLayer')"><div id="items"></div></a>
+<a onmouseclick="ReverseContentDisplay('FavorsLayer'); return true;"
+   href="javascript:ReverseContentDisplay('FavorsLayer')"><div id="favors"></div></a>
+<a onmouseclick="ReverseContentDisplay('ListingsLayer'); return true;"
+   href="javascript:ReverseContentDisplay('ListingsLayer')"><div id="listings"></div></a>
+<a onmouseclick="ReverseContentDisplay('ProfileLayer'); return true;"
+   href="javascript:ReverseContentDisplay('ProfileLayer')"><div id="profile"></div></a>
+<a target="_blank" href="http://kassi.sizl.org"><div id="try"></div></a>
+
+
+<div id="LinksBottom"><a class="bottom" target="_blank" href="http://www.sizzlelab.org">Sizzlelab.org</a> | <a class="bottom" target="_blank" href="http://otasizzle.wordpress.com">OtaSizzle blog</a> | <a class="bottom" target="_blank" href="http://www.sizzlelab.org/content/legal-information">Legal Information</a> | <a class="bottom" target="_blank" href="http://www.sizzlelab.org/content/frequently-asked-questions-faq">FAQ</a> | <a class="bottom" target="_blank" href="http://www.sizzlelab.org/content/howto">HOWTOs</a> | <a class="bottom" target="_blank" href="http://www.sizzlelab.org/contact">Feedback</a></div>
+<!--div id="LinksBottom">Feedback and questions: <a class="bottom" href="mailto:otasizzle-helpdesk@hiit.fi">otasizzle-helpdesk@hiit.fi</a></div-->
+
+
+<div id="InfoLayer">
+<div id="InfoText"><b>About Kassi</b>
+<p>Kassi is a service that enables borrowing, buying, selling and giving away items and the exchange of various favors. Users of Kassi can list their items they could lend and their expertise and other things they could do in their profiles. These are then shown in lists that can be browsed or searched. If something is not found in Kassi already you can post a listing. There are seven categories of listings: Marketplace, Items to borrow, Lost property, Car pools, Group activities, Favors and Others. You can browse the listings, favors and items to borrow without registering to the service, but if you want to answer to a listing or see the user profiles you have to create an user account.  
+
+<p>If you have created an user account in sizl.org or in any other Otasizzle service,
+those credentials will be valid also for Kassi, because Kassi is one of the OtaSizzle
+services. However, every Kassi user has a personal Kassi profile that has some extra
+information that is not shown elsewhere.
+
+<p><b>What is the purpose of Kassi?</b><br />
+The aim of Kassi is to make the exchange of daily favors easier in the metropolitan
+area. Kassi is part of Otasizzle, a project of HUT and HIIT. The purpose of the project
+is to study the development of social web services.
+
+<p><b>Who is a potential user of Kassi?</b><br />
+Because Kassi takes advantage of its users being located on the same area, it is
+originally designed for those who live or spend time regularly in Otaniemi. However,
+anyone can register as a user of Kassi in spite of where they live or work.
+</div>
+<a onmouseclick="HideContent('InfoLayer'); return true;"
+   		href="javascript:HideContent('InfoLayer')"><div id="CloseInfo"></div></a> 
+</div>
+
+<div id="FavorsLayer">
+<div id="FavorsText"><b>About Favors</b>
+<p>Favors are something nice and helpful that people can do to each other. Favor can
+be something you know well and someone needs help with that, e.g. fixing a bike,
+with computers. It also can be something that one is interested in doing and the
+other isn’t, like cooking, sewing etc. Also things like babysitting, taking a dog out and
+are good examples of things that take time that someone might have and the other
+doesn’t.
+<p>In Kassi these favors can be asked by posting a listing. You can also check if
+somebody has already listed a kind of favor you need in his/her profile and directly
+ask him/her by Kassi message to do that favor. You can list your own expertise or
+things you could do in your profile and they are then shown in a list of favors that
+anyone can browse. It is also possible to restrict favors to a certain group or for
+example to your friends only.
+<p>Favors can be paid by doing a favor in return, or by other means e.g. with money – it
+is totally up to you!
+</div>
+<a onmouseclick="HideContent('FavorsLayer'); return true;"
+   		href="javascript:HideContent('FavorsLayer')"><div id="CloseFavors"></div></a> 
+</div>
+
+<div id="ItemsLayer">
+<div id="ItemsText"><b>About Items</b>
+<p>Items are things that someone is borrowing. You can list your own items that you
+can lend to others in your own profile. Items are then shown in list of items that
+anyone can browse. They can also be found by search. It is also possible to restrict
+items to borrow to a certain group or for example to your friends only. To borrow
+an item you can send a Kassi message to a lender.
+<p>You can also borrow items by posting a listing where you are asking some item that
+is not already found on the list of items. Items can also be sold, bought or given away
+in Kassi.
+</div>
+<a onmouseclick="HideContent('ItemsLayer'); return true;"
+   		href="javascript:HideContent('ItemsLayer')"><div id="CloseItems"></div></a> 
+</div>
+
+<div id="ListingsLayer">
+<div id="ListingsText"><b>About Listings</b>
+<p>If you need a favor or borrow something, or for example are searching someone to
+play tennis with you, you can post a listing. Listing is then shown in the category you
+have chosen when someone is browsing listings. It can also be found through
+searches.
+<p>You can reply to listing by sending a message to person who has posted that listing.
+Only that person will see your answer. You can also comment on a listing, for
+example to ask more details. Everyone who’s reading the listing can see comments.
+<p>Listings can be closed when the asked favor is done or you just don’t want that
+listing to be open anymore. When you're closing a listing you can leave your thanks
+to a person who has done a favor.
+</div>
+<a onmouseclick="HideContent('ListingsLayer'); return true;"
+   		href="javascript:HideContent('ListingsLayer')"><div id="CloseListings"></div></a> 
+</div>
+
+<div id="ProfileLayer">
+<div id="ProfileText"><b>About Profile</b>
+<p>In user's profile are his contact information, items that he can lend and favors he
+offers to make. Also comments on that user, his listings and Kassi‐events can be seen
+here.
+</div>
+<a onmouseclick="HideContent('ProfileLayer'); return true;"
+   		href="javascript:HideContent('ProfileLayer')"><div id="CloseProfile"></div></a> 
+</div>
+
+
+
+
+
+</body>
+</html>

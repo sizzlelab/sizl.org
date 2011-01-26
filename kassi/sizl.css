@@ -1,0 +1,417 @@
+body {
+	margin: 0; 	padding: 0;
+	color: #000;
+	background: #f4f6d0;	
+	}
+
+#background {
+	position: absolute;
+	left: 213px;
+	top: 194px;
+	width: 793px;
+	height: 316px;
+	background: url(images/kassi_bg.png) no-repeat;
+	}
+
+#kassi {
+	position: absolute;
+	left: 520px;
+	top: 298px;
+	width: 100px;
+	height: 80px;
+	background: url(images/kassi_logo.png) no-repeat;
+	}
+
+#kassi:hover {
+	position: absolute;
+	left: 520px;
+	top: 329px;
+	width: 133px;
+	height: 39px;
+	background: url(images/kassi_logo_hover.png) no-repeat;
+	}
+
+#items {
+	position: absolute;
+	left: 726px;
+	top: 337px;
+	width: 78px;
+	height: 20px;
+	background: url(images/items.png) no-repeat;
+	}
+
+#items:hover {
+	position: absolute;
+	left: 726px;
+	top: 337px;
+	width: 78px;
+	height: 20px;
+	background: url(images/items_hover.png) no-repeat;
+	}
+	
+#favors {
+	position: absolute;
+	left: 346px;
+	top: 337px;
+	width: 91px;
+	height: 20px;
+	background: url(images/favors.png) no-repeat;
+	}
+
+#favors:hover {
+	position: absolute;
+	left: 346px;
+	top: 337px;
+	width: 91px;
+	height: 20px;
+	background: url(images/favors_hover.png) no-repeat;
+	}
+
+#listings {
+	position: absolute;
+	left: 539px;
+	top: 477px;
+	width: 75px;
+	height: 20px;
+	background: url(images/listings.png) no-repeat;
+	}
+
+#listings:hover {
+	position: absolute;
+	left: 539px;
+	top: 477px;
+	width: 75px;
+	height: 20px;
+	background: url(images/listings_hover.png) no-repeat;
+	}
+	
+#profile {
+	position: absolute;
+	left: 515px;
+	top: 207px;
+	width: 118px;
+	height: 19px;
+	background: url(images/profile.png) no-repeat;
+	}
+
+#profile:hover {
+	position: absolute;
+	left: 515px;
+	top: 207px;
+	width: 118px;
+	height: 19px;
+	background: url(images/profile_hover.png) no-repeat;
+}
+	
+#try {
+	position: absolute;
+	left: 685px;
+	top: 507px;
+	width: 94px;
+	height: 92px;
+	background: url(images/try.png) no-repeat;
+	}
+
+#try:hover {
+	position: absolute;
+	left: 685px;
+	top: 507px;
+	width: 94px;
+	height: 92px;
+	background: url(images/try_hover.png) no-repeat;
+	}
+	
+#InfoLayer {
+	display: none;
+	position: absolute;
+	left: 275px;
+	top: 100px;
+	width: 618px;
+	height: 574px;
+	background: url(images/info_bg.png) no-repeat;
+	}
+	
+#InfoText {
+	position: absolute;
+	left: 253px;
+	top: 9px;
+	font: normal 70%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+	color: #333;
+	text-align: left;
+	text-decoration: none;
+	width: 350px;
+	height: 540px;
+	}
+	
+#CloseInfo {
+	position: absolute;
+	left: 584px;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x.png) no-repeat;
+	}
+	
+#CloseInfo:hover {
+	position: absolute;
+	left: 584px;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_hover.png) no-repeat;
+	}
+	
+#CloseInfo:active {
+	position: absolute;
+	left: 584px;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_active.png) no-repeat;
+	}
+
+#FavorsLayer {
+	display: none;
+	position: absolute;
+	left: 393px;
+	top: 59px;
+	width: 383px;
+	height: 570px;
+	background: url(images/favors_bg.png) no-repeat;
+	}
+	
+#FavorsText {
+	position: absolute;
+	left: 13px;
+	top: 13px;
+	font: normal 70%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+	color: #333;
+	text-align: left;
+	text-decoration: none;
+	width: 356px;
+	height: 316px;
+	}
+	
+#CloseFavors {
+	position: absolute;
+	left: 352px;
+	top: 11px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x.png) no-repeat;
+	}
+	
+#CloseFavors:hover {
+	position: absolute;
+	left: 352px;
+	top: 11px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_hover.png) no-repeat;
+	}
+	
+#CloseFavors:active {
+	position: absolute;
+	left: 352px;
+	top: 11px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_active.png) no-repeat;
+	}
+
+#ItemsLayer {
+	display: none;
+	position: absolute;
+	left: 393px;
+	top: 120px;
+	width: 383px;
+	height: 453px;
+	background: url(images/items_bg.png) no-repeat;
+	}
+	
+#ItemsText {
+	position: absolute;
+	left: 13px;
+	top: 15px;
+	font: normal 70%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+	color: #333;
+	text-align: left;
+	text-decoration: none;
+	width: 356px;
+	height: 216px;
+	}
+	
+#CloseItems {
+	position: absolute;
+	left: 350px;
+	top: 11px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x.png) no-repeat;
+	}
+	
+#CloseItems:hover {
+	position: absolute;
+	left: 350px;
+	top: 11px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_hover.png) no-repeat;
+	}
+	
+#CloseItems:active {
+	position: absolute;
+	left: 350px;
+	top: 11px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_active.png) no-repeat;
+	}
+	
+#ProfileLayer {
+	display: none;
+	position: absolute;
+	left: 393px;
+	top: 179px;
+	width: 383px;
+	height: 335px;
+	background: url(images/profile_bg.png) no-repeat;
+	}
+	
+#ProfileText {
+	position: absolute;
+	left: 13px;
+	top: 15px;
+	font: normal 70%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+	color: #333;
+	text-align: left;
+	text-decoration: none;
+	width: 356px;
+	height: 216px;
+	}
+	
+#CloseProfile {
+	position: absolute;
+	left: 352px;
+	top: 11px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x.png) no-repeat;
+	}
+	
+#CloseProfile:hover {
+	position: absolute;
+	left: 352px;
+	top: 11px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_hover.png) no-repeat;
+	}
+	
+#CloseProfile:active {
+	position: absolute;
+	left: 352px;
+	top: 11px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_active.png) no-repeat;
+	}
+	
+#ListingsLayer {
+	display: none;
+	position: absolute;
+	left: 393px;
+	top: 96px;
+	width: 383px;
+	height: 500px;
+	background: url(images/listings_bg.png) no-repeat;
+	}
+	
+#ListingsText {
+	position: absolute;
+	left: 13px;
+	top: 13px;
+	font: normal 70%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+	color: #333;
+	text-align: left;
+	text-decoration: none;
+	width: 356px;
+	height: 216px;
+	}
+	
+#CloseListings {
+	position: absolute;
+	left: 351px;
+	top: 11px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x.png) no-repeat;
+	}
+	
+#CloseListings:hover {
+	position: absolute;
+	left: 351px;
+	top: 11px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_hover.png) no-repeat;
+	}
+	
+#CloseListings:active {
+	position: absolute;
+	left: 351px;
+	top: 11px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_active.png) no-repeat;
+	}
+
+#OtaSizzle {
+	position: absolute;
+	left: 116px;
+	top: 8px;
+	width: 288px;
+	height: 135px;
+	background: url(images/OtaSizzle.png) no-repeat ;
+	font: normal 80%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+	color: #555;
+	text-align: left;
+	}
+
+#back  {
+	position: absolute;
+	left: 125px;
+	top: 100px;
+	width: 150px;
+	height: 26px;
+	font: normal 80%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+	text-align: left;
+	text-decoration: none;
+	}
+
+#LinksBottom {
+	position: absolute;
+	left: 333px;
+	top: 629px;
+	width: 500px;
+	height: 51px;
+	font: normal 80%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+	color: #555;
+	text-align: center;
+	text-decoration: none;
+	}
+
+A:link {text-decoration: underline; color: #fff}
+A:visited {text-decoration: underline; color: #fff}
+A:active {text-decoration: underline; color: #fff}
+A:hover {text-decoration: underline; color: #999}
+
+A.back:link {text-decoration: none; color: #555}
+A.back:visited {text-decoration: none; color: #555}
+A.back:active {text-decoration: none; color: #555}
+A.back:hover {text-decoration: underline; color: #999}
+
+A.bottom:link {text-decoration: none; color: #555}
+A.bottom:visited {text-decoration: none; color: #555}
+A.bottom:active {text-decoration: none; color: #555}
+A.bottom:hover {text-decoration: underline; color: #999}

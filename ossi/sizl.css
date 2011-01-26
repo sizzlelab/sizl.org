@@ -1,0 +1,400 @@
+body {
+	margin: 0; 	padding: 0;
+	color: #000;
+	background: #141414;	
+	}
+
+#background {
+	position: absolute;
+	left: 213px;
+	top: 155px;
+	width: 793px;
+	height: 384px;
+	background: url(images/ossi_bg.png) no-repeat;
+	}
+
+#friends {
+	position: absolute;
+	left: 354px;
+	top: 196px;
+	width: 125px;
+	height: 42px;
+	background: url(images/friends.png) no-repeat;
+	}
+
+#friends:hover {
+	position: absolute;
+	left: 354px;
+	top: 196px;
+	width: 125px;
+	height: 42px;
+	background: url(images/friends_hover.png) no-repeat;
+	}
+	
+#groups {
+	position: absolute;
+	left: 678px;
+	top: 200px;
+	width: 124px;
+	height: 43px;
+	background: url(images/groups.png) no-repeat;
+	}
+
+#groups:hover {
+	position: absolute;
+	left: 678px;
+	top: 200px;
+	width: 124px;
+	height: 43px;
+	background: url(images/groups_hover.png) no-repeat;
+	}
+	
+#sizzle {
+	position: absolute;
+	left: 528px;
+	top: 457px;
+	width: 104px;
+	height: 42px;
+	background: url(images/sizzle.png) no-repeat;
+	}
+
+#sizzle:hover {
+	position: absolute;
+	left: 528px;
+	top: 457px;
+	width: 104px;
+	height: 42px;
+	background: url(images/sizzle_hover.png) no-repeat;
+	}
+	
+#ossi {
+	position: absolute;
+	left: 524px;
+	top: 326px;
+	width: 169px;
+	height: 54px;
+	background: url(images/ossi_logo.png) no-repeat;
+	}
+
+#ossi:hover {
+	position: absolute;
+	left: 524px;
+	top: 326px;
+	width: 169px;
+	height: 54px;
+	background: url(images/ossi_logo_hover.png) no-repeat;
+	}
+	
+#try {
+	position: absolute;
+	left: 753px;
+	top: 360px;
+	width: 94px;
+	height: 92px;
+	background: url(images/try.png) no-repeat;
+	}
+
+#try:hover {
+	position: absolute;
+	left: 753px;
+	top: 360px;
+	width: 94px;
+	height: 92px;
+	background: url(images/try_hover.png) no-repeat;
+	}
+	
+#InfoLayer {
+	display: none;
+	position: absolute;
+	left: 391px;
+	top: 152px;
+	width: 383px;
+	height: 420px;
+	background: url(images/ossiInfo_bg.png) no-repeat;
+	}
+	
+#InfoText {
+	position: absolute;
+	left: 18px;
+	top: 13px;
+	font: normal 70%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+	color: #fff;
+	text-align: left;
+	text-decoration: none;
+	width: 343px;
+	height: 419px;
+	}
+	
+#CloseInfo {
+	position: absolute;
+	left: 350px;
+	top: 10px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x.png) no-repeat;
+	}
+	
+#CloseInfo:hover {
+	position: absolute;
+	left: 350px;
+	top: 10px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_hover.png) no-repeat;
+	}
+	
+#CloseInfo:active {
+	position: absolute;
+	left: 350px;
+	top: 10px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_active.png) no-repeat;
+	}
+	
+#FriendsLayer {
+	display: none;
+	position: absolute;
+	left: 336px;
+	top: 140px;
+	width: 494px;
+	height: 410px;
+	background: url(images/friends_bg.png) no-repeat;
+	}
+	
+#FriendsText {
+	position: absolute;
+	left: 258px;
+	top: 15px;
+	width: 222px;
+	height: 419px;
+	font: normal 70%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+	color: #fff;
+	text-align: left;
+	text-decoration: none;
+	}
+	
+#CloseFriends {
+	position: absolute;
+	left: 462px;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x.png) no-repeat;
+	}
+	
+#CloseFriends:hover {
+	position: absolute;
+	left: 462px;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_hover.png) no-repeat;
+	}
+	
+#CloseFriends:active {
+	position: absolute;
+	left: 462px;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_active.png) no-repeat;
+	}
+	
+#GroupsLayer {
+	display: none;
+	position: absolute;
+	left: 336px;
+	top: 140px;
+	width: 494px;
+	height: 410px;
+	background: url(images/groups_bg.png) no-repeat;
+	}
+	
+#GroupsText {
+	position: absolute;
+	left: 258px;
+	top: 15px;
+	width: 222px;
+	height: 419px;
+	font: normal 70%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+	color: #fff;
+	text-align: left;
+	text-decoration: none;
+	}
+	
+#CloseGroups {
+	position: absolute;
+	left: 462px;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x.png) no-repeat;
+	}
+	
+#CloseGroups:hover {
+	position: absolute;
+	left: 462px;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_hover.png) no-repeat;
+	}
+	
+#CloseGroups:active {
+	position: absolute;
+	left: 462px;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_active.png) no-repeat;
+	}
+
+#SizzleLayer {
+	display: none;
+	position: absolute;
+	left: 336px;
+	top: 140px;
+	width: 494px;
+	height: 410px;
+	background: url(images/sizzle_bg.png) no-repeat;
+	}
+	
+#SizzleText {
+	position: absolute;
+	left: 258px;
+	top: 15px;
+	width: 222px;
+	height: 419px;
+	font: normal 70%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+	color: #fff;
+	text-align: left;
+	text-decoration: none;
+
+	}
+	
+#CloseSizzle {
+	position: absolute;
+	left: 462px;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x.png) no-repeat;
+	}
+	
+#CloseSizzle:hover {
+	position: absolute;
+	left: 462px;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_hover.png) no-repeat;
+	}
+	
+#CloseSizzle:active {
+	position: absolute;
+	left: 462px;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_active.png) no-repeat;
+	}
+
+#TryLayer {
+	display: none;
+	position: absolute;
+	left: 391px;
+	top: 275px;
+	width: 383px;
+	height: 161px;
+	background: url(images/ossiTry_bg.png) no-repeat;
+	}
+	
+#TryText {
+	position: absolute;
+	left: 18px;
+	top: 16px;
+	font: normal 70%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+	color: #fff;
+	text-align: left;
+	text-decoration: none;
+	width: 343px;
+	height: 139px;
+	}
+	
+#CloseTry {
+	position: absolute;
+	left: 350px;
+	top: 10px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x.png) no-repeat;
+	}
+	
+#CloseTry:hover {
+	position: absolute;
+	left: 350px;
+	top: 10px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_hover.png) no-repeat;
+	}
+	
+#CloseTry:active {
+	position: absolute;
+	left: 350px;
+	top: 10px;
+	width: 24px;
+	height: 24px;
+	background: url(../images/x_active.png) no-repeat;
+	}
+
+#OtaSizzle {
+	position: absolute;
+	left: 116px;
+	top: 8px;
+	width: 288px;
+	height: 135px;
+	background: url(images/OtaSizzle_black.png) no-repeat;
+	font: normal 80%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+	color: #555;
+	text-align: left;
+	}
+
+#back  {
+	position: absolute;
+	left: 125px;
+	top: 100px;
+	width: 150px;
+	height: 26px;
+	font: normal 80%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+	text-align: left;
+	text-decoration: none;
+	}
+
+#LinksBottom {
+	position: absolute;
+	left: 333px;
+	top: 629px;
+	width: 500px;
+	height: 51px;
+	font: normal 80%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+	color: #555;
+	text-align: center;
+	text-decoration: none;
+	}
+
+A:link {text-decoration: underline; color: #fff}
+A:visited {text-decoration: underline; color: #fff}
+A:active {text-decoration: underline; color: #fff}
+A:hover {text-decoration: underline; color: #999}
+
+A.back:link {text-decoration: none; color: #555}
+A.back:visited {text-decoration: none; color: #555}
+A.back:active {text-decoration: none; color: #555}
+A.back:hover {text-decoration: underline; color: #999}
+
+A.bottom:link {text-decoration: none; color: #555}
+A.bottom:visited {text-decoration: none; color: #555}
+A.bottom:active {text-decoration: none; color: #555}
+A.bottom:hover {text-decoration: underline; color: #999}

@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Sizl.org</title>
+<link href="sizl.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" language="JavaScript"><!--
+function HideContent(d) {
+if(d.length < 1) { return; }
+document.getElementById(d).style.display = "none";
+}
+function ShowContent(d) {
+if(d.length < 1) { return; }
+document.getElementById(d).style.display = "block";
+}
+function ReverseContentDisplay(d) {
+if(d.length < 1) { return; }
+if(document.getElementById(d).style.display == "none") { 
+	document.getElementById("FriendsLayer").style.display = "none";
+	document.getElementById("GroupsLayer").style.display = "none";
+	document.getElementById("SizzleLayer").style.display = "none";
+	document.getElementById("InfoLayer").style.display = "none"
+	document.getElementById("TryLayer").style.display = "none"
+	document.getElementById(d).style.display = "block"; }
+else if(document.getElementById(d).style.display == "") { 
+	document.getElementById("FriendsLayer").style.display = "none";
+	document.getElementById("GroupsLayer").style.display = "none";
+	document.getElementById("SizzleLayer").style.display = "none";
+	document.getElementById("InfoLayer").style.display = "none"
+	document.getElementById("TryLayer").style.display = "none"
+	document.getElementById(d).style.display = "block"; 
+	}
+else {
+	document.getElementById("FriendsLayer").style.display = "none";
+	document.getElementById("GroupsLayer").style.display = "none";
+	document.getElementById("SizzleLayer").style.display = "none";
+	document.getElementById("InfoLayer").style.display = "none";
+	document.getElementById("TryLayer").style.display = "none"
+	document.getElementById(d).style.display = "none"; 
+	}
+}
+
+//--></script>
+</head>
+
+
+<body>
+
+<div id="background"></div>
+<a href="../index.html"><div id="OtaSizzle"></div></a>
+<a class="back" href="../index.html"><div id="back">&lt;&lt; Back to Main</div></a>
+<a onmouseclick="ReverseContentDisplay('FriendsLayer'); return true;"
+   href="javascript:ReverseContentDisplay('FriendsLayer')"><div id="friends"></div></a>
+<a onmouseclick="ReverseContentDisplay('GroupsLayer'); return true;"
+   href="javascript:ReverseContentDisplay('GroupsLayer')"><div id="groups"></div></a>
+<a onmouseclick="ReverseContentDisplay('SizzleLayer'); return true;"
+   href="javascript:ReverseContentDisplay('SizzleLayer')"><div id="sizzle"></div></a>
+<a onmouseclick="ReverseContentDisplay('InfoLayer'); return true;"
+   href="javascript:ReverseContentDisplay('InfoLayer')"><div id="ossi"></div></a>
+<a onmouseclick="ReverseContentDisplay('TryLayer'); return true;"
+   href="javascript:ReverseContentDisplay('TryLayer')"><div id="try"></div></a>
+<!--a target="_blank" href="http://ossi.sizl.org"><div id="try"></div></a-->
+
+   
+<div id="LinksBottom"><a class="bottom" target="_blank" href="http://www.sizzlelab.org">Sizzlelab.org</a> | <a class="bottom" target="_blank" href="http://otasizzle.wordpress.com">OtaSizzle blog</a> | <a class="bottom" target="_blank" href="http://www.sizzlelab.org/content/legal-information">Legal Information</a> | <a class="bottom" target="_blank" href="http://www.sizzlelab.org/content/frequently-asked-questions-faq">FAQ</a> | <a class="bottom" target="_blank" href="http://www.sizzlelab.org/content/howto">HOWTOs</a> | <a class="bottom" target="_blank" href="http://www.sizzlelab.org/contact">Feedback</a></div>
+<!--div id="LinksBottom">Feedback and questions: <a class="bottom" href="mailto:otasizzle-helpdesk@hiit.fi">otasizzle-helpdesk@hiit.fi</a></div-->
+
+
+<div id="InfoLayer">
+<div id="InfoText"><b>About Ossi</b>
+<p>Ossi is a group-centered mobile social media service. You can use Ossi to connect with friends, keep in touch with groups and to stay tuned to what is sizzling around you. Ossi has been developed especially to be used on the three Aalto university campuses in Helsinki metropolitan area.
+<p>Ossi has been developed to be used on the go. You can use it from your mobile phone either with a web browser or as an installed application (WRT widget). Furthermore, you can use Ossi from a desktop with a web browser or, if you are a Mac user, as a dashboard widget.
+<p>Ossi has been developed in the scope of the OtaSizzle research project that develops new social media services and studies their adoption and use. Currently, the service is in beta phase. We develop Ossi continuously. You are welcome to shape the future of Ossi by sharing your ideas and giving feedback. Moreover, please report all problems to <a href="mailto:otasizzle-helpdesk@hiit.fi">otasizzle-helpdesk@hiit.fi</a> or on the Ossi Feedback channel in Ossi.
+<p><a target="_blank" href="http://ossi.sizl.org">Ossi for browsers</a><br/>
+<a target="_blank" href="http://vcs.hiit.fi/trac/ossi/wiki/OssiWRT%2C">Ossi for Nokia Web Runtime (WRT)</a><br/>
+<a target="_blank" href="http://vcs.hiit.fi/trac/ossi/wiki/OssiDashboard%2C">Ossi for OS X Dashboard (Apple Dashboard Widget)</a></div>
+<a onmouseclick="HideContent('InfoLayer'); return true;"
+   		href="javascript:HideContent('InfoLayer')"><div id="CloseInfo"></div></a> 
+</div>
+<div id="FriendsLayer">
+<div id="FriendsText"><b>About Friends</b>
+<p>Friends - that's what social media is all about. In Ossi, you can create your own network by adding other users as your friends. This enables you to follow their status updates from the friends view. Also, by adding someone as your friend, you allow them to view your friends-only channels.</div>
+<a onmouseclick="HideContent('FriendsLayer'); return true;"
+   		href="javascript:HideContent('FriendsLayer')"><div id="CloseFriends"></div></a> 
+</div>
+<div id="GroupsLayer">
+<div id="GroupsText"><b>About Groups</b>
+<p>Join the gang! In Ossi, you can join groups that are relevant to you as well as create new ones. In them, you can easily check how the members of the group are doing and what they are up to. You can also chat with them. Ossi groups are there to make mobile group communication easy and to help you to stay tuned with your groups also on the go.</div>
+<a onmouseclick="HideContent('GroupsLayer'); return true;"
+   		href="javascript:HideContent('GroupsLayer')"><div id="CloseGroups"></div></a> 
+</div>
+<div id="SizzleLayer">
+<div id="SizzleText"><b>About Sizzle</b>
+<p>Do you want to know what's sizzling around you? Then Ossi is the service for you. Browse the channels to see what's being discussed and what's happening. Take part in the sizzling by posting messages. The most recently updated channels are ranked on the top of the sizzle view - this makes it quick for you to take a look of what's sizzling just now.
+<p>Ossi has three types of channels. The ones marked with a green border are public - they are open to all sizzle users. The red ones are friends-only - they are visible only to the creator's friends. The yellow ones are group channels - visible just to the members of a group. You can also create new channels yourself - it's quickly done and allows you to direct the discussion towards topics that mean the most to you. What would you like to share and discuss?</div>
+<a onmouseclick="HideContent('SizzleLayer'); return true;"
+   		href="javascript:HideContent('SizzleLayer')"><div id="CloseSizzle"></div></a> 
+</div>
+<div id="TryLayer">
+<div id="TryText"><b>Try Ossi</b>
+<p><a target="_blank" href="http://ossi.sizl.org">Ossi for browsers</a> (http://ossi.sizl.org)
+<p>Downloads:<br/>
+<a target="_blank" href="http://vcs.hiit.fi/trac/ossi/wiki/OssiWRT%2C">Ossi for Nokia Web Runtime (WRT)</a><br/>
+<a target="_blank" href="http://vcs.hiit.fi/trac/ossi/wiki/OssiDashboard%2C">Ossi for OS X Dashboard (Apple Dashboard Widget)</a></div>
+<a onmouseclick="HideContent('TryLayer'); return true;"
+   		href="javascript:HideContent('TryLayer')"><div id="CloseTry"></div></a> 
+</div>
+
+
+</body>
+</html>
