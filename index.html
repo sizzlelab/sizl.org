@@ -22,6 +22,7 @@ if(document.getElementById(d).style.display == "none") {
 	document.getElementById("KassiLayer").style.display = "none";
 	document.getElementById("OssiLayer").style.display = "none";
 	document.getElementById("NSMLayer").style.display = "none";
+	document.getElementById("AaltolunchLayer").style.display = "none";
 	document.getElementById("HUBILayer").style.display = "none";
 	document.getElementById("NewsLayer").style.display = "none";
 	document.getElementById(d).style.display = "block"; }
@@ -31,6 +32,7 @@ else if(document.getElementById(d).style.display == "") {
 	document.getElementById("KassiLayer").style.display = "none";
 	document.getElementById("OssiLayer").style.display = "none";
 	document.getElementById("NSMLayer").style.display = "none";
+	document.getElementById("AaltolunchLayer").style.display = "none";
 	document.getElementById("HUBILayer").style.display = "none";
 	document.getElementById("NewsLayer").style.display = "none";
 	document.getElementById(d).style.display = "block"; 
@@ -41,6 +43,7 @@ else {
 	document.getElementById("KassiLayer").style.display = "none";
 	document.getElementById("OssiLayer").style.display = "none";
 	document.getElementById("NSMLayer").style.display = "none";
+	document.getElementById("AaltolunchLayer").style.display = "none";
 	document.getElementById("HUBILayer").style.display = "none";
 	document.getElementById("NewsLayer").style.display = "none";
 	}
@@ -54,6 +57,7 @@ else {
 
 <div class="preload">
 <img src="images/MySizl_hover.png" />
+<img src="images/Aaltolunch_hover.png" />
 <img src="images/HUBI_hover.png" />
 <img src="images/x_hover.png" />
 <img src="images/NSM_hover.png" />
@@ -72,6 +76,8 @@ else {
    href="javascript:ReverseContentDisplay('OssiLayer')"><div id="Ossi"></div></a>
 <a onmouseclick="ReverseContentDisplay('NSMLayer'); return true;"
    href="javascript:ReverseContentDisplay('NSMLayer')"><div id="NSM"></div></a>
+<a onmouseclick="ReverseContentDisplay('AaltolunchLayer'); return true;"
+   href="javascript:ReverseContentDisplay('AaltolunchLayer')"><div id="Aaltolunch"></div></a>
 <a onmouseclick="ReverseContentDisplay('HUBILayer'); return true;"
    href="javascript:ReverseContentDisplay('HUBILayer')"><div id="HUBI"></div></a>
 <a onmouseclick="ReverseContentDisplay('KassiLayer'); return true;"
@@ -198,8 +204,20 @@ takes about 10 minutes.-->
   <a onmouseclick="HideContent('NSMLayer'); return true;"
    		href="javascript:HideContent('NSMLayer')"><div id="CloseNSM"></div></a> 
 </div>
+
+<div id="AaltolunchLayer">
+	<div id="AaltolunchText">
+        <b>What is Aalto Lunch?</b>
+        <p>The quick brown fox jumped over the lazy dogs</p>
+        <p>Go to <a target="_blank" href="http://aaltolunch.fi/">aaltolunch.ci</a> on your mobile phone's browser<br /> or <a target="_blank" href="javascript:alert('FIXME')">click here for more information</a>.</p>
+    </div>
+    <a onmouseclick="HideContent('AaltolunchLayer'); return true;"
+   		href="javascript:HideContent('AaltolunchLayer')"><div id="CloseAaltolunch"></div></a> 
+</div>
+
+
 <div id="HUBILayer">
-	<div id="HUBIText"><b>What is HUBI?</b><p>Mobile HUBI Portal offers context-aware services in the Helsinki capital area, on your mobile phone. Available services include a public transport route guide that allows using your current location and own places as shortcuts, and a Helsinki area event recommender including also the Aalto University events. The service portal is provided for pilot use and developed further by VTT as part of a project studying ubiquitous mobile services.
+	<div id="HUBIText"><b>What is HUBI?</b><p>Mobile HUBI Portal offers context-aware services in the Helsinki capital area, on your mobile phone. Available services include a public transport route guide that allows using your current location and own places as shortcuts, and a Helsinki area event recommender including also the Aalto University events. The service portal is provided for pilot use and developed further by VTT as part of a project studying ubiquitous mobile services.</p>
     
  <p>Go to <a target="_blank" href="http://m.hubi.fi/mobi/">m.HUBI.fi</a> on your mobile phone's browser<br /> or <a target="_blank" href="http://hubi.fi/m/index_en.html">click here for more information</a>.
  
